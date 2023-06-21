@@ -26,15 +26,15 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/josh/docs/dev/postgraphdb.github.io/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "/Users/arunesh/data/projects/postgraphdb.github.io/sidebars.js",
+          "editUrl": "https://github.com/postgraphdb/postgraphdb.github.io/tree/code/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/postgraphdb/postgraphdb.github.io/tree/code/"
         },
         "theme": {
-          "customCss": "/home/josh/docs/dev/postgraphdb.github.io/src/css/custom.css"
+          "customCss": "/Users/arunesh/data/projects/postgraphdb.github.io/src/css/custom.css"
         }
       }
     ]
@@ -84,7 +84,7 @@ export default {
           "items": [
             {
               "label": "Discord",
-              "href": "https://postgraphdb.github.io/"
+              "href": "https://discord.gg/dhzFGvxGhn"
             },
             {
               "label": "Twitter",
