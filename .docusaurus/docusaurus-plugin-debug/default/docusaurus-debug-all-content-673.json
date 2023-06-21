@@ -332,6 +332,28 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "/index",
+          "metadata": {
+            "permalink": "/blog/index",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/index.md",
+            "source": "@site/blog/index.md",
+            "title": "Hello",
+            "description": "",
+            "date": "2023-06-21T03:21:24.084Z",
+            "formattedDate": "June 21, 2023",
+            "tags": [],
+            "readingTime": 0,
+            "hasTruncateMarker": false,
+            "authors": [],
+            "frontMatter": {},
+            "nextItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            }
+          },
+          "content": ""
+        },
+        {
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
@@ -385,6 +407,10 @@
                 "hello",
                 "docusaurus"
               ]
+            },
+            "prevItem": {
+              "title": "Hello",
+              "permalink": "/blog/index"
             },
             "nextItem": {
               "title": "MDX Blog Post",
@@ -549,6 +575,7 @@
       "blogListPaginated": [
         {
           "items": [
+            "/index",
             "welcome",
             "mdx-blog-post",
             "long-blog-post",
@@ -559,7 +586,7 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 4,
+            "totalCount": 5,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }

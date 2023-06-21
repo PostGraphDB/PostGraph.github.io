@@ -1,0 +1,18 @@
+{
+  "permalink": "/blog/index",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/index.md",
+  "source": "@site/blog/index.md",
+  "title": "Hello",
+  "description": "",
+  "date": "2023-06-21T03:21:24.084Z",
+  "formattedDate": "June 21, 2023",
+  "tags": [],
+  "readingTime": 0,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {},
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}
