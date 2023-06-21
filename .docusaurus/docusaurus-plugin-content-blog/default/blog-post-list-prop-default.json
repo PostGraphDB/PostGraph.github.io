@@ -2,10 +2,6 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Hello",
-      "permalink": "/blog/index"
-    },
-    {
       "title": "Welcome",
       "permalink": "/blog/welcome"
     },

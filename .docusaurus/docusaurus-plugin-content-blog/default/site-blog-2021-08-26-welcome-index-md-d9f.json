@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/welcome",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
+  "editUrl": "https://github.com/postgraphdb/postgraphdb.github.io/tree/code/blog/2021-08-26-welcome/index.md",
   "source": "@site/blog/2021-08-26-welcome/index.md",
   "title": "Welcome",
   "description": "Docusaurus blogging features are powered by the blog plugin.",
@@ -50,10 +50,6 @@
       "hello",
       "docusaurus"
     ]
-  },
-  "prevItem": {
-    "title": "Hello",
-    "permalink": "/blog/index"
   },
   "nextItem": {
     "title": "MDX Blog Post",
