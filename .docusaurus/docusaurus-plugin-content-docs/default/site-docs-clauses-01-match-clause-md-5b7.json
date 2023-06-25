@@ -1,0 +1,30 @@
+{
+  "unversionedId": "Clauses/match-clause",
+  "id": "Clauses/match-clause",
+  "title": "MATCH Clause",
+  "description": "MATCH Clause for PostGraph",
+  "source": "@site/docs/Clauses/01-match-clause.md",
+  "sourceDirName": "Clauses",
+  "slug": "/Clauses/match-clause",
+  "permalink": "/docs/Clauses/match-clause",
+  "draft": false,
+  "editUrl": "https://github.com/postgraphdb/postgraphdb.github.io/tree/code/docs/Clauses/01-match-clause.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "layout": "default",
+    "title": "MATCH Clause",
+    "nav_order": 1,
+    "description": "MATCH Clause for PostGraph"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Clauses",
+    "permalink": "/docs/category/clauses"
+  },
+  "next": {
+    "title": "WITH Clause",
+    "permalink": "/docs/Clauses/with-clause"
+  }
+}

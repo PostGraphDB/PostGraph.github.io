@@ -1,0 +1,30 @@
+{
+  "unversionedId": "Clauses/return-clause",
+  "id": "Clauses/return-clause",
+  "title": "RETURN Clause",
+  "description": "RETURN Clause for PostGraph",
+  "source": "@site/docs/Clauses/03-return-clause.md",
+  "sourceDirName": "Clauses",
+  "slug": "/Clauses/return-clause",
+  "permalink": "/docs/Clauses/return-clause",
+  "draft": false,
+  "editUrl": "https://github.com/postgraphdb/postgraphdb.github.io/tree/code/docs/Clauses/03-return-clause.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "layout": "default",
+    "title": "RETURN Clause",
+    "nav_order": 1,
+    "description": "RETURN Clause for PostGraph"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "WITH Clause",
+    "permalink": "/docs/Clauses/with-clause"
+  },
+  "next": {
+    "title": "Functions",
+    "permalink": "/docs/category/functions"
+  }
+}
