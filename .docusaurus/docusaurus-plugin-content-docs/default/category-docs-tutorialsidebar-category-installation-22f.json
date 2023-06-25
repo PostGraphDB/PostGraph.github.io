@@ -1,0 +1,15 @@
+{
+  "title": "Installation",
+  "slug": "/category/installation",
+  "permalink": "/docs/category/installation",
+  "navigation": {
+    "previous": {
+      "title": "Welcome",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Setup",
+      "permalink": "/docs/Installation/setup"
+    }
+  }
+}

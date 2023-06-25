@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Functions/README copy 3",
+  "id": "Functions/README copy 3",
+  "title": "Predicate Functions",
+  "description": "Predicate Functions for PostGraph",
+  "source": "@site/docs/Functions/README copy 3.md",
+  "sourceDirName": "Functions",
+  "slug": "/Functions/README copy 3",
+  "permalink": "/docs/Functions/README copy 3",
+  "draft": false,
+  "editUrl": "https://github.com/postgraphdb/postgraphdb.github.io/tree/code/docs/Functions/README copy 3.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "layout": "default",
+    "title": "Predicate Functions",
+    "nav_order": 1,
+    "description": "Predicate Functions for PostGraph"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scaler Functions",
+    "permalink": "/docs/Functions/scaler-functions"
+  },
+  "next": {
+    "title": "Predicate Functions",
+    "permalink": "/docs/Functions/README copy"
+  }
+}

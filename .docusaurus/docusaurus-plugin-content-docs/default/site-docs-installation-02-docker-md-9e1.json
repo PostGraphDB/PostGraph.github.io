@@ -1,0 +1,30 @@
+{
+  "unversionedId": "Installation/docker",
+  "id": "Installation/docker",
+  "title": "Docker",
+  "description": "Docker for PostGraph",
+  "source": "@site/docs/Installation/02-docker.md",
+  "sourceDirName": "Installation",
+  "slug": "/Installation/docker",
+  "permalink": "/docs/Installation/docker",
+  "draft": false,
+  "editUrl": "https://github.com/postgraphdb/postgraphdb.github.io/tree/code/docs/Installation/02-docker.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "layout": "default",
+    "title": "Docker",
+    "nav_order": 1,
+    "description": "Docker for PostGraph"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup",
+    "permalink": "/docs/Installation/setup"
+  },
+  "next": {
+    "title": "Clauses",
+    "permalink": "/docs/category/clauses"
+  }
+}

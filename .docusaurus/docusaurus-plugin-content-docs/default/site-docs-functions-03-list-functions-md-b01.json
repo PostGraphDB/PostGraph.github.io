@@ -1,0 +1,30 @@
+{
+  "unversionedId": "Functions/list-functions",
+  "id": "Functions/list-functions",
+  "title": "List Functions",
+  "description": "List Functions for PostGraph",
+  "source": "@site/docs/Functions/03-list-functions.md",
+  "sourceDirName": "Functions",
+  "slug": "/Functions/list-functions",
+  "permalink": "/docs/Functions/list-functions",
+  "draft": false,
+  "editUrl": "https://github.com/postgraphdb/postgraphdb.github.io/tree/code/docs/Functions/03-list-functions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "layout": "default",
+    "title": "List Functions",
+    "nav_order": 1,
+    "description": "List Functions for PostGraph"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scaler Functions",
+    "permalink": "/docs/Functions/scaler-functions"
+  },
+  "next": {
+    "title": "Numeric Functions",
+    "permalink": "/docs/Functions/numeric-functions"
+  }
+}
