@@ -82,6 +82,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://www.patreon.com/PostGraph',
+            label: 'Support Us',
+            position: 'right',
+          },  
         ],
       },
       footer: {
@@ -115,6 +120,10 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
+              },
+              {
+                href: 'https://www.patreon.com/PostGraph',
+                label: 'Patreon',
               },
               {
                 label: 'GitHub',
