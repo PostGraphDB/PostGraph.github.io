@@ -7,3 +7,9 @@ description: 'Predicate Functions for PostGraph'
 ---
 
 # PostGraph documentation
+
+import TOCInline from '@theme/TOCInline';
+
+
+<TOCInline toc={toc} />
+
