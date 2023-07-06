@@ -24,6 +24,13 @@ Postgres' tagline is: the most advanced open source database, and its true. From
 
 PostGraph plans to leave alpha and begin offering stable releases by the end of 2023. Alpha releases will be made available before that, starting at the end of July, 2023.
 
+#### Features for the alpha release
+
+* Indices on properties
+* Better type safety
+* Performance Improvements
+* Support for Date and Time Datatypes
+
 ### Phase 1 - Vanilla Postgres
 
 The first step of PostGraph is to utilize what Postgres' offers in it's most basic form. Vanilla Postgres has the ability to outperform almost every other database in 90% of all cases like this.
