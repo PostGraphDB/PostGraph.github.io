@@ -81,7 +81,6 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
@@ -107,5 +106,11 @@ dist
 # Custom Docusaurus files
 .docusaurus/
 .DS_Store
+
+# custom POSTGRAPH specific files
+!dist/
+!pool/
+build/
+
 
 
