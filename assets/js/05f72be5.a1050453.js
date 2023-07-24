@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpostgraph_web=self.webpackChunkpostgraph_web||[]).push([[3853],{6345:e=>{e.exports=JSON.parse('{"title":"Clauses","slug":"/category/clauses","permalink":"/docs/category/clauses","navigation":{"previous":{"title":"Map","permalink":"/docs/Datatypes/gtype/map"},"next":{"title":"MATCH","permalink":"/docs/Clauses/MATCH"}}}')}}]);
