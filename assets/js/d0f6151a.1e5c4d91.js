@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpostgraph_web=self.webpackChunkpostgraph_web||[]).push([[7721],{5262:e=>{e.exports=JSON.parse('{"title":"GType","slug":"/category/gtype","permalink":"/docs/category/gtype","navigation":{"previous":{"title":"Traversal","permalink":"/docs/Datatypes/traversal"},"next":{"title":"Introduction","permalink":"/docs/Datatypes/gtype/introduction"}}}')}}]);
