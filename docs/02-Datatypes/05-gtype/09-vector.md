@@ -1,20 +1,29 @@
 ---
 layout: default
 title: GType Vector
-nav_order: 6
+nav_order: 8
 description: 'Vectors for PostGraph'
+keywords: [vector, AI, machine learning, graph embeddings, k nearest neighbor, pgvector]
+toc_max_heading_level: 2
 ---
 
 # Vector
 
+Vectors are a set of between 1 and 16000 elements double floating point numbers. 
+
+:::note
 The vector datatype uses the [pgvector](https://github.com/pgvector/pgvector) as its base. The source code for [pgvector](https://github.com/pgvector/pgvector) has been merged with PostGraph for this type. Currently, [pgvector](https://github.com/pgvector/pgvector) does have more functionality than is in PostGraph and the PostGraph developers strongly recommend researching both projects before making a decision on which extension to use. Currently they are incompatible and you will not be able to move data between the two extensions.
+:::
 
 ## What is a Vector
 
 Each vector takes 8 * dimensions + 24 bytes of storage. Each element is a double precision floating-point number (like the float8 type in Postgres and float in PostGraph), and all elements must be finite (no NaN, Infinity or -Infinity). Vectors can have up to 16,000 dimensions. 
 
-## Create a Vector
+## Creating Vectors
 
+Currently, there is only one way to create a vector. More a planned, however if you have a certain method you would like to see, please create an issue on github for the feature.
+
+### Typecast from a string
 To create a vector you must write the vector as a string an typecast the string to a vector.
 
 #### Query
