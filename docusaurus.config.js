@@ -137,7 +137,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} PostGraphDB. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PostGraphDB.`,
       },
       prism: {
         theme: lightCodeTheme,

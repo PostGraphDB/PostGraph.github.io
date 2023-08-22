@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GType Vector
+title: Vector
 nav_order: 8
 description: 'Vectors for PostGraph'
 keywords: [vector, AI, machine learning, graph embeddings, k nearest neighbor, pgvector]
@@ -17,7 +17,7 @@ The vector datatype uses the [pgvector](https://github.com/pgvector/pgvector) as
 
 ## What is a Vector
 
-Each vector takes 8 * dimensions + 24 bytes of storage. Each element is a double precision floating-point number (like the float8 type in Postgres and float in PostGraph), and all elements must be finite (no NaN, Infinity or -Infinity). Vectors can have up to 16,000 dimensions. 
+Each vector takes `(8 bytes * dimensions) + 24 bytes` of storage. Each element is a double precision floating-point number (like the float8 type in Postgres and float in PostGraph), and all elements must be finite (no NaN, Infinity or -Infinity). Vectors can have up to 16,000 dimensions. 
 
 ## Creating Vectors
 
@@ -54,8 +54,8 @@ The Euclidean distance between two points in [Euclidean space](https://en.wikipe
 `A float value`
 
 #### Arguments
-| Name |Description |
-| :--- | :----: |
+| Name        | Description                               |
+| :---------- | ----------------------------------------: |
 | expression1 | An expression that evaluates to a vector. |
 | expression2 | An expression that evaluates to a vector. |
 
@@ -91,8 +91,8 @@ Gives the angular cosine distance between vectors.
 `A float value`
 
 #### Arguments
-| Name |Description |
-| :--- | :----: |
+| Name        | Description                               |
+| :---------- | ----------------------------------------: |
 | expression1 | An expression that evaluates to a vector. |
 | expression2 | An expression that evaluates to a vector. |
 
@@ -128,8 +128,8 @@ An L1 Distance is a  distance function where the distance between two points is 
 `A float value`
 
 #### Arguments
-| Name |Description |
-| :--- | :----: |
+| Name        | Description                               |
+| :---------- | ----------------------------------------: |
 | expression1 | An expression that evaluates to a vector. |
 | expression2 | An expression that evaluates to a vector. |
 
@@ -165,8 +165,8 @@ The spherical distance between two points P and Q on a sphere is the distance of
 `A float value`
 
 #### Arguments
-| Name |Description |
-| :--- | :----: |
+| Name        | Description                               |
+| :---------- | ----------------------------------------: |
 | expression1 | An expression that evaluates to a vector. |
 | expression2 | An expression that evaluates to a vector. |
 
@@ -202,8 +202,8 @@ The inner product is the sum of the products of the corresponding entries of the
 `A float value`
 
 #### Arguments
-| Name |Description |
-| :--- | :----: |
+| Name        | Description                               |
+| :---------- | ----------------------------------------: |
 | expression1 | An expression that evaluates to a vector. |
 | expression2 | An expression that evaluates to a vector. |
 
@@ -226,7 +226,6 @@ $$) as (product gtype);
 <tr> <td>31.2916</td> </tr>
 </table>
 
-
 ### Negative Inner Product
 
 The negative inner product is the negative sum of the products of the corresponding entries of the two vectors.
@@ -240,8 +239,8 @@ The negative inner product is the negative sum of the products of the correspond
 `A float value`
 
 #### Arguments
-| Name |Description |
-| :--- | :----: |
+| Name        | Description                               |
+| :---------- | ----------------------------------------: |
 | expression1 | An expression that evaluates to a vector. |
 | expression2 | An expression that evaluates to a vector. |
 
